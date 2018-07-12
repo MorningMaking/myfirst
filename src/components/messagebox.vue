@@ -45,7 +45,7 @@ export default {
       loading: false,
       temppg: 1,
       scrollflag: 1,
-      shownotice: "加载中"
+      shownotice: ""
     };
   },
   mounted() {
