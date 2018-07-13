@@ -25,7 +25,7 @@ after_script:
   - git config user.email "${U_EMAIL}"
   - git add .
   - git commit -m "Update tools"
-  - git push --force --quiet "https://${GH_REF}"
+  - git push --force --quiet "https://${GH_REF} master"
 # E: Build LifeCycle
 
 branches:
